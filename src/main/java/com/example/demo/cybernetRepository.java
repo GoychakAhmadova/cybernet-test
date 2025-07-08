@@ -1,3 +1,7 @@
+import jakarta.validation.constraints.NotEmpty;
+import lombok.Data;
+import org.springframework.stereotype.Repository;
+
 @Repository
 public class cybernetRepository {
     @NotEmpty
